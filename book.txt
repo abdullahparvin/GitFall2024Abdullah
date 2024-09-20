@@ -21,3 +21,16 @@ Changes to be committed:
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	.gitignore
+
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   answers.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+

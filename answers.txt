@@ -1,0 +1,24 @@
+a.) 13 commits. 3 by Abdullah and 10 by Dr. Parra Rodriguez
+
+b.) Sep 19 16:09:17 2024. However this is an untracked file by Git. I had to use an OS command to see when it was last modified.
+
+c.) git rev-list and git ls-tree could be used. Git rev-list allows you to specify a date and it will list the latest commit that was staged on or before that date. Then, using the commit hash of that commit you can use git ls-tree which will give you information on the files that were present for that specific commit.
+
+d.)
+
+e.) The file REMOVE.txt was never created. There was no instruction to do so and it wasn't in the starter files.
+
+f.) Git log is used to view the commit history of a repository while git status shows you the current state of the working directory and staging area. Git log shows you completed commits git status can help you see what needs to be committed.
+
+g.) Shortlog is similar to log. It shows you the commit history but it is more concise than the gitlog command. This can be useful if you want to easily and quickly reference the commit log.
+
+h.) You could use the git log command and further specify a filename which will show a log of only commits that involved Main.java. The full command would be git log -- Main.java
+
+i.) You can also use the git log command but add further options to achieve what is described. Adding -p will show the differences and adding --follow will track any renames. Also specifying the file name will restrict it to the specific file. The full command is git log -p --follow -- Main.java
+
+j.) Use git log but filter it using the grep option. Git log --grep="account" will filter the log to only show messages that contain the word account.
+
+k.) Use git log but use the author option to filter the comments by author. Git log --author="Abdullah Parvin" would filter the commit log to include commits that were made by me.
+
+l.) Use git log and specify the author using the author options and specify the time frame using the since and until options. The command would be git log --author="Lauren" --since="2014-01-05" --until="2024-01-14".
+
